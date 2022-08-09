@@ -57,3 +57,18 @@ MAC: 70:1f:53:73:8d:00
 IP: 10.10.20.80
 Software version: 16.11.1c
 #############################################################################################################################################################################################################################################################################################
+#Task 6  : Webex team API
+Task preparation
+-----------------
+  Reading the course  and slides,  and google the commands
+Task implementation
+------------------
+  starting with the information from session 3 with trail and error
+Task troubleshooting
+-------------------
+  difference between cisco spark and webexteam
+  each run creates new room with same name
+  uploading of jpeg
+Task verification:
+-------------------
+adding a second account to webex and check for the output
