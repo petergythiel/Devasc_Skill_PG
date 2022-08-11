@@ -1,0 +1,61 @@
+Datum /tijd is: Thu 11 Aug 2022 10:34:56 AM UTC
+de parameters starten met IP_hosts
+192.168.56.101
+cisco
+cisco123!
+Yang config is {
+  "ietf-interfaces:interface": {
+     "name": $LOOPBACK_INTERFACE,
+     "description": f"RESTCONF => {$LOOPBACK_INTERFACE}",
+     "type": "iana-if-type:softwareLoopback",
+     "enabled": True,
+     "ietf-ip:ipv4": {
+         "address": [
+             {
+                 "ip": $LOOPBACK_IP,
+                 "netmask": "255.255.255.0"
+             }
+         ]
+     }
+ }
+}
+Headers zijn { "Accept": $DATA_FORMAT ,  "Content-type": $DATA_FORMAT }
+ Basic aut is  ($RESTCONF_USERNAME, $RESTCONF_PASSWORD)
+START REST API CALL
+====================
+FIRST API CALL
+url_put is https://192.168.56.101/restconf/data/ietf-interfaces:interfaces/interface=Loopback199
+Het resultaat result1 is HTTP/1.1 401 Unauthorized
+Server: nginx
+Date: Thu, 11 Aug 2022 10:35:04 GMT
+Content-Type: application/yang-data+xml
+Transfer-Encoding: chunked
+Connection: keep-alive
+WWW-Authenticate: Basic realm="restconf"
+Vary: Accept-Encoding
+
+<errors xmlns="urn:ietf:params:xml:ns:yang:ietf-restconf">
+  <error>
+    <error-tag>access-denied</error-tag>
+    <error-type>protocol</error-type>
+  </error>
+</errors>
+##################
+STATUS bepaling
+##################
+Result1 is HTTP/1.1 401 Unauthorized
+Server: nginx
+Date: Thu, 11 Aug 2022 10:35:04 GMT
+Content-Type: application/yang-data+xml
+Transfer-Encoding: chunked
+Connection: keep-alive
+WWW-Authenticate: Basic realm="restconf"
+Vary: Accept-Encoding
+
+<errors xmlns="urn:ietf:params:xml:ns:yang:ietf-restconf">
+  <error>
+    <error-tag>access-denied</error-tag>
+    <error-type>protocol</error-type>
+  </error>
+</errors>
+De status is 401
