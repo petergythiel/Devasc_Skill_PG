@@ -75,21 +75,37 @@ adding a second account to webex and check for the output
 
 ##################################################
 Task name: Task 7: bash
+################################################## 
 Task preparation
-  ---------------
-  reading the examples in session 9 + Google
+---------------
+  reading the examples in session 9 + Google 
+  
 Task implementation:
-  --------------------
-  curl with options and testing
-Task troubleshooting
-  ------------------
-  part 1: output is not as desired. Probably minor error with passing of paramaters to curl
-  part 2: formating of json output not succesfull with commands like 'lq' and 'mjson.tool'
+--------------------
+  curl with options and testing Task troubleshooting
+  part 1: output is not as desired. Probably minor error with passing of paramaters to curl part 2: formating of json output not succesfull with commands like 'lq' and 'mjson.tool' 
+  
 Task verification
-  ---------------
-  Screenshots and 
-conclusion: not fully terminated but still 'on good track'
+------------------
+  Screenshots and comments
+
+conclusion:
+-----------
+  not fully terminated but still 'on good track'
 
 ########################################################
+ Task 5 -- REST API & RESTCONF ***
+ Task preparation
+ ---------------
+
+Task implementation:
+--------------------
 
 
+
+Task troubleshooting
+---------------------
+
+
+Task verification
+-----------------
