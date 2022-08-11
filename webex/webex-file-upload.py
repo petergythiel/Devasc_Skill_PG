@@ -6,6 +6,7 @@ access_token = "NGUwMmFkYjUtMTE0NS00NTRkLWFlZTYtMTI3YmYyMjFhN2Q3OTY0MmFiZDItZjdl
 #room_id = "Devasc_skills_PGY"
 room_id = "Y2lzY29zcGFyazovL3VzL1JPT00vMjAzMWE5OTAtMTdkMi0xMWVkLWI5YzQtYWY4Yjg1YmIzYThk"
 
+
 filepath    = '/home/devasc/Devasc_Skills/Devasc_Skill_PG/pictures/Task1-GITHUB.png'
 filetype    = 'image/png'
 #roomId      = 'SOME ROOM'
