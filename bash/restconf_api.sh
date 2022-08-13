@@ -99,7 +99,7 @@ result2=$( curl -i -k \
       $url_get )
 
 #echo "--------------na curl"
-#echo $result2 
+echo $result2  | json_pp 
 
 #cat $result2 |python3 -mjson.tool
 status2=`echo $result2 | grep HTTP |cut -d " " -f2`
