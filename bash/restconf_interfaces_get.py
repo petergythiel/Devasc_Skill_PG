@@ -20,7 +20,8 @@ resp = requests.get(api_url, auth=basicauth, headers=headers, verify=False)
 #print(dir(resp))
 
 #### Step 4: Format and display the JSON data received from the CSR1kv.
-response_json = resp.json()
+#response_json = resp.json()
 #print(response_json)
 #print(resp.status_code)
-print(json.dumps(response_json, indent=4))
+#print(json.dumps(response_json, indent=4))
+print(resp.headers)

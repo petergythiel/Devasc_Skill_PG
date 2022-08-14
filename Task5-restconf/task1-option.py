@@ -20,15 +20,34 @@ headers = { "Accept": "application/yang-data+json",  "Content-type":"application
 resp = requests.options(api_url, auth=basicauth, headers=headers, verify=False)
 print(resp.headers)
 #print(dir(resp))
+print("-------Analyse van resp")
+print("Type is ", type(resp))
+print("dir is " , dir(resp))
+
+print("--------------Einde test voor type en dir")
 
 print(resp.status_code)
 print("--------------1")
+#import pprint
 print(resp.headers)
 print("--------------2")
 print(resp.encoding)
 print("--------------3")
+print(resp.request)
+print("--------------4")
+print(resp.json)
+print("--------------5")
+
+
+#print(json(resp.headers))
+#pretty = json.dumps(resp.json(), indent=2)
+#print(pretty)
+print("-------------Einde json test")
 #### Step 4: Format and display the JSON data received from the CSR1kv.
+
 #response_json = resp.json()
+#response_json = json.loads(resp)
 #print(response_json)
 #print(resp.status_code)
 #print(json.dumps(response_json, indent=4))
+print(resp.headers)
