@@ -97,6 +97,75 @@ conclusion:
  Task 5 -- REST API & RESTCONF ***
  Task preparation
  ---------------
+reading the different exercises and task 7 of the skill examen
+Google documentation
+
+Task implementation:
+--------------------
+usage of skelleton of task 7 with modification
+
+
+Task troubleshooting
+---------------------
+passing of 'severety' gives a problem
+formating of output is still not conform
+
+
+
+Task verification
+-----------------
+Major parts of the scripts are prepared
+Minor errors, like format of output by non working Json() 
+
+Score: 2/3. Rather moving on than spending an other day try and error
+
+
+####################################
+########################################################
+ Task 3 -- Docker ***
+ Task preparation
+ ---------------
+ reading the DevNet sessions and Google Docker documentation
+
+Task implementation:
+--------------------
+writing Dockerfile from examples
+writing shell script by try and error
+
+
+Task troubleshooting
+---------------------
+typing errors
+confusion about /var/www/html or /usr/local/apache/html as location of index files
+
+
+Task verification
+-----------------
+OK: website can be reached
+
+#########################################"
+########################################################
+ Task 2 -- Ansible ***
+ Task preparation
+ ---------------
+
+Task implementation:
+--------------------
+
+
+
+Task troubleshooting
+---------------------
+
+
+Task verification
+-----------------
+
+
+########################################################
+ Task 4 -- Jenkings *
+ Task preparation
+ ---------------
 
 Task implementation:
 --------------------
