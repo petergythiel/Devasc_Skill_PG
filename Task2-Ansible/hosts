@@ -1,0 +1,17 @@
+#Ansible host file
+
+[RouterCSR]
+192.168.56.101 ansible_ssh_user=cisco ansible_ssh_passwd=cisco123! ansible_user=cisco
+#PGY ansible_host=192.168.56.101
+#ansible_ssh_user=cisco
+#ansible_ssh_passwd=Cisco123!
+
+[yvan]
+CSR1kv ansible_host=192.168.56.101 ansible_user=cisco ansible_password=cisco123! enable_password=cisco123! ansible_network_os=ios 
+
+[router]
+192.168.56.101
+
+[router:vars]
+router_user="cisco"
+router_pass="cisco123!"

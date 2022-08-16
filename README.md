@@ -148,18 +148,25 @@ OK: website can be reached
  Task 2 -- Ansible ***
  Task preparation
  ---------------
-
+Reading of documentation, slides from session 7 and examples on github of instructor. 
 Task implementation:
 --------------------
-
+Start with try and error based on documentation on the internet, with a lot of mistakes
+Testing and copying the files of the instructor
 
 
 Task troubleshooting
 ---------------------
-
+Started with a  lot of error during the try
+Once the files of the instructor are used, it seems to work well
 
 Task verification
 -----------------
+Green screen during execution of the playbook with command 
+      ansible-playbook ios_facts.yml -vvv
+screenshots taken after each step
+
+It is not perfect and a little bit to much copying from instructorfiles, but it works without red remarks
 
 
 ########################################################

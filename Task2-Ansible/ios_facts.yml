@@ -1,0 +1,25 @@
+---
+#Testen voor taak 2 van Skill Examen
+- name: DISCOVER IOS VERSION 
+  hosts: yvan
+  gather_facts: False
+  connection: local
+  become: yes
+  become_method: enable
+ 
+  tasks:
+  - name: run show version and check to see if output contains IOS
+    ios_command:
+      commands: show version
+      wait_for: result[0] contains IOS
+
+  - name: run show ip int brief
+    ios_command:
+      commands: show ip interface brief
+    register: interfaces
+
+  - name: Configure log buffer
+    ios_logging:
+      dest: buffered
+      level: informational
+      state: present
