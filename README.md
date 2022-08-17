@@ -173,6 +173,9 @@ It is not perfect and a little bit to much copying from instructorfiles, but it 
  Task 4 -- Jenkings *
  Task preparation
  ---------------
+reading manual
+watching YouTube video's like https://www.youtube.com/watch?v=3g1DX_0VXyw&ab_channel=edureka%21
+
 
 Task implementation:
 --------------------
