@@ -173,18 +173,25 @@ It is not perfect and a little bit to much copying from instructorfiles, but it 
  Task 4 -- Jenkings *
  Task preparation
  ---------------
-reading manual
+reading slides from session 6
 watching YouTube video's like https://www.youtube.com/watch?v=3g1DX_0VXyw&ab_channel=edureka%21
+
 
 
 Task implementation:
 --------------------
-
+Starting as seen in lab 6.3.6-lab---build-a-ci-cd-pipeline-using-jenkins.pdf
+and with elements from session 6
 
 
 Task troubleshooting
 ---------------------
+find my way in Jenkins with starting an agent and the connection
+
 
 
 Task verification
 -----------------
+Task abandoned due to lack of time.
+Minimal number of points has  been reached already
+
